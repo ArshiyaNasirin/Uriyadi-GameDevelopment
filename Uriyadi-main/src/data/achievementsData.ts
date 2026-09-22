@@ -1,0 +1,68 @@
+import { Achievement } from '../types';
+
+export const INITIAL_ACHIEVEMENTS: Achievement[] = [
+  {
+    id: 'first_strike',
+    title: 'First Strike',
+    tamilTitle: 'முதல் அடி',
+    description: 'Swing your stick and land a hit on the terracotta pot.',
+    unlocked: false,
+    icon: '🏏',
+  },
+  {
+    id: 'pot_shattered',
+    title: 'Pot Shatterer',
+    tamilTitle: 'பானை உடைத்த வீரன்',
+    description: 'Completely shatter the suspended festive pot in any mode.',
+    unlocked: false,
+    icon: '🏺',
+  },
+  {
+    id: 'blindfolded_master',
+    title: 'Blindfolded Master',
+    tamilTitle: 'கண்கட்டு வித்தகர்',
+    description: 'Shatter the pot with blindfold enabled using only audio guidance.',
+    unlocked: false,
+    icon: '🙈',
+  },
+  {
+    id: 'perfect_hit',
+    title: 'Flawless Strike',
+    tamilTitle: 'துல்லிய தாக்குதல்',
+    description: 'Achieve a PERFECT hit rating with maximum velocity and sweet-spot timing.',
+    unlocked: false,
+    icon: '⚡',
+  },
+  {
+    id: 'combo_king',
+    title: 'Festival Rhythm',
+    tamilTitle: 'தொடர் வெற்றி',
+    description: 'Reach a 5x Combo multiplier during a single round.',
+    unlocked: false,
+    icon: '🔥',
+  },
+  {
+    id: 'speed_demon',
+    title: 'Speed King',
+    tamilTitle: 'மின்னல் வீரன்',
+    description: 'Smash the pot in under 15 seconds.',
+    unlocked: false,
+    icon: '⏱️',
+  },
+  {
+    id: 'champion_periya',
+    title: 'Overcame Periya Chinna',
+    tamilTitle: 'பெரிய சின்னாவை வீழ்த்தியவன்',
+    description: 'Defeat Rope Master Periya Chinna in Level 4 of Story Mode.',
+    unlocked: false,
+    icon: '👑',
+  },
+  {
+    id: 'tamil_legacy',
+    title: 'Keeper of Legacy',
+    tamilTitle: 'தமிழ் மரபு காவலன்',
+    description: 'Read and explore all 6 cultural heritage topics in the Heritage Gallery.',
+    unlocked: false,
+    icon: '📜',
+  },
+];
